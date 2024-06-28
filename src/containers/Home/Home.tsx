@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import {ApiPost, Post} from '../../types';
 import axiosApi from '../../axiosApi';
-import {Link, useNavigate} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   const [posts, setPosts] = useState<Post[]>([]);
